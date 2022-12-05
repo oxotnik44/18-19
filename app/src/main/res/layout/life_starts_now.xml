@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="            Life Starts Now"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="410dp"
+                android:layout_height="267dp"
+                app:srcCompat="@drawable/life_starts_now" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:text="22 сентября 2009 года вышел третий студийный альбом — Life Starts Now, который представил группу в новом звучании, стиле и образах. Критики, а также сами участники группы отметили, что альбом является отступлением от жестких тонов пост-гранжа, песни поются более лиричными. Альбом дебютировал на третьем месте Billboard 200, что является самым высоким местом в истории Three Days Grace. Было продано 79 тысяч копий в первую неделю после релиза. Альбом встретили смешанные отзывы. Бен Рейнер из Toronto Star отрицательно отозвался о альбоме, заявив:"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

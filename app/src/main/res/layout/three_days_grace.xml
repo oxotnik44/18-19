@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Three Days Grace"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="421dp"
+                android:layout_height="267dp"
+                app:srcCompat="@drawable/three_days_grace" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:text="
+Первый альбом уже под всем привычным названием группы был именован также, как и сама группа - Three Days Grace (2003-2005). Сразу после заключения контракта группа отправилась в студию Long View Farm (Норт Брукфилд, штат Массачусетс), и при участии Гэйвина Брауна приступила к работе над дебютным альбомом[6]. Также Three Days Grace записывались в Bearsville Studios в Нью-Йорке, где и был закончен альбом. Пластинка вышла под названием Three Days Grace 22 июля 2003 года. Альбом Three Days Grace достиг девятой позиции в канадском чарте и 69-й — в Billboard 200, а в декабре 2004 года пластинка получила золотой статус по сертификации RIAA и двойной платиновый статус по CRIA. "
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
